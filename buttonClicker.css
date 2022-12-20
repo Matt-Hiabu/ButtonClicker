@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    font-family: sans-serif;
+}
+
+.top-nav {
+    display: flex;
+    background-color:rgb(169, 166, 166);
+    padding: 10px;
+    margin: 0% 10%;
+    justify-content: space-between;
+}
+
+.top-nav input {
+    width: 40%;
+}
+
+#login {
+    width: 10%;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 4px black;
+}
+
+.body {
+    display: flex;
+    margin: 0% 10%;
+}
+
+.main {
+    flex: 2;
+    margin-right: 10px;
+}
+
+.side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: inherit;
+    height: 180px;
+    margin: 20px 0px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: inherit;
+    height: 220px;
+    margin: 20px 0px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
+
+.box-name {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box-def {
+    flex: 3;
+}
+
+.box-name h1,
+.box-name h4,
+.box-name h5,
+.box-name button {
+    margin: 10%;
+}
+
+.box-name button {
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(235, 209, 94);
+    color: black;
+    box-shadow: 3px 4px black;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.side button {
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+    background-color: rgb(74, 189, 118);
+    color: black;
+    box-shadow: 3px 4px black;
+}
